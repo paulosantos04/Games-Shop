@@ -1,0 +1,134 @@
+/* Estilo Geral */
+* {
+    margin: 0; /* Zera as margens */
+    padding: 0; /* Zera o padding */
+    box-sizing: border-box; /* Faz com que o padding e a borda não aumentem o tamanho do elemento */
+}
+
+/* Estilo do Header */
+header {
+    padding: 1 rem; /* Espaçamento interno */
+    background-color: #182c61; /* Cor de fundo */
+    color: #ecf0f1; /* Cor do texto */
+}
+
+/* Estilo da lista dentro de nav */
+header nav li {
+    display: inline; /* Faz com que os itens da lista fiquem na mesma linha */
+    margin-left: 1rem; /* Espaçamento a esquerda */
+    font-size: 1.125rem; /* Tamanho da fonte */
+}
+
+/* Estilo dos links da lista dentro de nav */
+header nav li a {
+    color: #ecf0f1; /* Cor do texto */
+    text-decoration: none; /* Remove o sublinhado */
+}
+
+/* Estilo classe */
+.container {
+    max-width: 80rem; /* Largura máxima */
+    width: 100%; /* Largura total */
+    margin: 0 auto; /* Centraliza o container */
+}
+
+/*Estilo classe dentro de header */
+header .container {
+    display: flex; /* Faz com que os elementos fiquem em linha */
+    justify-content: space-between; /* Alinha os elementos nas extremidades */
+    align-items: center; /* Alinha os elementos verticalmente */
+}
+
+/* Estilo da seção sobre */
+header .container, section .container {
+    display: flex; /* Faz com que os elementos fiquem em linha */
+    align-items: center; /* Alinha os elementos verticalmente */
+    justify-content: space-between; /* Alinha os elementos nas extremidades */
+}   
+
+/* Estilo imagens da classe brands-list */
+.brands-list img {
+    height: 1.5rem; /* Altura */
+}
+
+/* Estilo lista da classe brands-list */
+.brands-list li {
+    display: inline; /* Faz com que os itens da lista fiquem na mesma linha */
+    margin-right: 0.5rem; /* Espaçamento a direita */
+}
+
+/* Estilo tag section*/
+section .container {
+    align-items: flex-start; /* Alinha os elementos verticalmente */
+}
+
+section{
+    padding: 1.5rem 0; /* Espaçamento interno */
+    color: #182c61;
+}
+
+section h2 {
+    font-size: 2rem; /* Tamanho da fonte */
+    margin-bottom: 1rem; /* Espaçamento inferior */
+}
+
+section p { 
+    margin-bottom: 0.5rem; /* Espaçamento inferior */
+}
+
+/* Estilo da classe store-front */
+.store-front {
+    margin-right: 2rem; /* Espaçamento a direita */
+}
+
+/* Estilo da classe container dentro da seção contato */
+#contact .container { 
+    display: block; /* Faz com que os elementos fiquem em bloco */
+}
+
+/* Estilo da classe contact-methods */
+.contact-methods { 
+    display: flex; /* Faz com que os elementos fiquem em linha */
+    justify-content: space-between; /* Alinha os elementos nas extremidades */
+}
+
+/* Estilo dos inputs, textarea e button dentro de form */
+form input, form textarea, form button { 
+   display: block; /* Faz com que os elementos fiquem em bloco */
+   width: 20rem; /* Largura */
+   margin-bottom: 0.5rem; /* Espaçamento inferior */
+   padding: 0.5rem;   /* Espaçamento interno */
+}
+
+form textarea {
+    resize: none; /* Remove a opção de redimensionar */
+    height: 11.25rem; /* Altura */
+}
+
+form button {
+    background-color: #182c61; /* Cor de fundo */
+    color: #ecf0f1; /* Cor do texto */
+    border: none; /* Remove a borda */
+    cursor: pointer; /* Muda o cursor */
+}
+
+form button:hover {
+    background-color: #314e9e; /* Cor de fundo */
+}
+
+input:focus, textarea:focus{
+    outline-color: #182c61; /* Cor da borda */ 
+}
+
+.social-links img {
+    height: 1.5rem; /* Altura */
+}
+
+.social-links li {
+    display: inline; /* Faz com que os itens da lista fiquem na mesma linha */
+    margin-right: 0.5rem; /* Espaçamento a direita */
+}
+
+.social-links li a {
+    text-decoration: none; /* Remove o sublinhado */
+}
